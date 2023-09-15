@@ -30,5 +30,34 @@ class FizzBuzz {
 
             }
         }
+
+        int i2 = 1;
+        while (i2 < 100 ) {
+            boolean d3 = i2 % 3 == 0;
+            boolean d5 = i2 % 5 == 0;
+
+            if (d3 && d5) {
+
+                System.out.println("Fizz Buzz");
+
+            } else if (d3) {
+
+                System.out.println("Fizz");
+
+            } else if (d5) {
+
+                System.out.println("Buzz");
+
+            } else {
+
+                System.out.println(i2);
+            }
+            i2++;
+        }
     }
+
+
+
+
+
 }
